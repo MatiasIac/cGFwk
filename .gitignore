@@ -1,0 +1,48 @@
+# CMake out-of-source build directories
+/build/
+/build-*/
+/out/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+_deps/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+CMakeLists.txt.user
+CMakeUserPresets.json
+
+# Visual Studio local state
+/.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Compiler and linker output
+*.obj
+*.o
+*.pch
+*.idb
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.exe
+*.dll
+
+# MSBuild intermediate files
+*.tlog
+*.lastbuildstate
+*.log
+
+# Temporary editor files
+*.tmp
+*.bak
+*.swp
+*~
